@@ -13,35 +13,29 @@ dependencies = [
     "langchain-core>=1.0,<2.0",
     "langchain-community>=0.4,<1.0",
     "langchain-text-splitters>=1.0,<2.0",
-
     # Agents
     "langgraph>=1.0,<2.0",
-
     # LLM providers
     "langchain-google-genai>=4.0,<5.0",
     "langchain-openai>=1.0,<2.0",
     "langchain-groq>=1.0,<2.0",
-
     # RAG / Vector DB
     "langchain-chroma>=1.0,<2.0",
     "chromadb>=1.0,<2.0",
     "sentence-transformers>=5.0,<6.0",
     "faiss-cpu>=1.9,<2.0",
-
     # Documents
     "pypdf>=6.0,<7.0",
     "pymupdf>=1.26,<2.0",
-
     # Data / configuration
     "pydantic>=2.0,<3.0",
     "python-dotenv>=1.0,<2.0",
-
     # UI
     "streamlit>=1.59,<2.0",
-
     # Jupyter
     "ipykernel>=7.3,<8.0",
-    "notebook>=7.6,<8.0"
+    "notebook>=7.6,<8.0",
+    "langchain-huggingface>=1.2.2",
 ]
 
 
