@@ -17,7 +17,7 @@ load_dotenv()
 DB_PATH = os.path.join(os.path.dirname(__file__), "store.db")
 
 llm = ChatGroq(model="qwen/qwen3.8-27b", temperature=0)
-vision_llm = ChatGroq(model="meta-llama/llama-4-scout-17b-16e-instruct", temperature=0)
+vision_llm = ChatGroq(model="qwen/qwen3.8-27b", temperature=0)
 
 
 # ---------------------------------------------------------------------------
